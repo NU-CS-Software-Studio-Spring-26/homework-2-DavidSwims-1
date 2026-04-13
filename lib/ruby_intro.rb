@@ -3,7 +3,7 @@
 # Part 1
 
 def sum arr
-  # YOUR CODE HERE
+  arr.inject(0) { |sum, x| sum + x }
 end
 
 def max_2_sum arr
